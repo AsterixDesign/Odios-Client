@@ -17,7 +17,8 @@ module.exports = {
   // plugins options
   // ---------------
   plugins: [
-    '~plugins/vuetify'
+    '~plugins/vuetify',
+    '~plugins/vuex-router-sync.js'
   ],
   // modules options
   // -------------
