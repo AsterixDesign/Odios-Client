@@ -79,7 +79,7 @@
         {
           icon: 'subscriptions',
           text: 'Subscriptions',
-          to: '/subscription',
+          to: '/subscriptions',
           ...nuxt
         },
         {
@@ -90,8 +90,8 @@
         },
         {
           icon: 'playlist_play',
-          text: 'Playlist',
-          to: '/playlist',
+          text: 'Playlists',
+          to: '/playlists',
           ...nuxt
         },
         { divider: true },
