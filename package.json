@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nuxt"
+    "dev": "nuxt",
+    "play": "poi --config play.config.js",
+    "build:play": "poi build --config play.config.js"
   },
   "dependencies": {
     "nuxt": "^1.0.0-alpha.4",
@@ -20,9 +22,11 @@
     "eslint-plugin-node": "^5.1.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
+    "poi": "^8.0.0",
     "pug": "rc-2.0.0",
     "pug-loader": "^2.3.0",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1"
+    "stylus-loader": "^3.0.1",
+    "vue-play": "^3.2.1"
   }
 }
