@@ -10,6 +10,10 @@
   },
   "dependencies": {
     "@nuxtjs/component-cache": "^0.1.5",
+    "@nuxtjs/icon": "^0.1.0",
+    "@nuxtjs/manifest": "^1.6.0",
+    "@nuxtjs/meta": "^1.2.0",
+    "@nuxtjs/optimize": "^1.1.0",
     "@nuxtjs/pwa": "^0.2.0",
     "@nuxtjs/workbox": "^0.4.0",
     "nuxt": "^1.0.0-alpha.4",

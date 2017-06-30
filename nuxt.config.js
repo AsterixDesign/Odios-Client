@@ -14,6 +14,17 @@ module.exports = {
   css: [
     { src: '~assets/styles/app.styl', lang: 'stylus' }
   ],
+  // loading-bar options
+  // --------------------
+  loading: {
+    color: '#FF4081',
+    height: '60px'
+  },
+  // loading-bar options
+  // --------------------
+  manifest: {
+    theme_color: '#03A9F4'
+  },
   // plugins options
   // ---------------
   plugins: [
@@ -24,8 +35,8 @@ module.exports = {
   // -------------
   modules: [
     '@nuxtjs/pwa',
-    '@nuxtjs/workbox',
-    '@nuxtjs/component-cache'
+    '@nuxtjs/component-cache',
+    '@nuxtjs/optimize'
   ],
   // build options
   // -------------
