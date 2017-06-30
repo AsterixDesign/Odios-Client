@@ -16,7 +16,16 @@ module.exports = {
   ],
   // plugins options
   // ---------------
-  plugins: ['~plugins/vuetify'],
+  plugins: [
+    '~plugins/vuetify'
+  ],
+  // modules options
+  // -------------
+  modules: [
+    '@nuxtjs/pwa',
+    '@nuxtjs/workbox',
+    '@nuxtjs/component-cache'
+  ],
   // build options
   // -------------
   build: {

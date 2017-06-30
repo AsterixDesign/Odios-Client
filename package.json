@@ -9,6 +9,9 @@
     "build:play": "poi build --config play.config.js"
   },
   "dependencies": {
+    "@nuxtjs/component-cache": "^0.1.5",
+    "@nuxtjs/pwa": "^0.2.0",
+    "@nuxtjs/workbox": "^0.4.0",
     "nuxt": "^1.0.0-alpha.4",
     "vue-types": "^1.0.1",
     "vuetify": "^0.12.7"
