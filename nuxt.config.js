@@ -6,7 +6,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Where Hunter College Speaks' }
+      { hid: 'description', name: 'description', content: 'Listen to Podcasts, all the time, everytime' }
     ]
   },
   // css options

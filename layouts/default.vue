@@ -3,7 +3,10 @@
     app-drawer
     app-bar(:toggleDrawer="toggleSidebar")
     main: v-container(fluid): nuxt
-    v-footer footer
+    v-footer
+      span Asterix*Designs
+      v-spacer
+      span Odios © {{ new Date().getFullYear() }}
 </template>
 
 <script>
