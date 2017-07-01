@@ -8,7 +8,8 @@
       @click.native.stop="toggleDrawer"
     )
 
-    v-toolbar-logo Odios
+    nuxt-link.toolbar__logo(to="/")
+      img(src="~assets/images/logo.svg" alt="Odios Logo")
 
     v-text-field.hidden-sm-and-down(
       prepend-icon="search",
@@ -29,7 +30,9 @@
 
 <script>
   import Types from 'vue-types'
+  import NuxtLink from 'nuxt/dist/app/components/nuxt-link'
   export default {
+    components: {NuxtLink},
     name: 'AppBar',
     props: {
       toggleDrawer: Types.func
@@ -39,5 +42,10 @@
 
 <style lang="stylus" scoped>
   .root
-    /**/
+    .toolbar__logo
+      height 50px
+      width 160px
+      img
+        max-width 100%
+        max-height 100%
 </style>
