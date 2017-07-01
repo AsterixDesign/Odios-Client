@@ -30,9 +30,8 @@
 
 <script>
   import Types from 'vue-types'
-  import NuxtLink from 'nuxt/dist/app/components/nuxt-link'
+
   export default {
-    components: {NuxtLink},
     name: 'AppBar',
     props: {
       toggleDrawer: Types.func
@@ -43,7 +42,7 @@
 <style lang="stylus" scoped>
   .root
     .toolbar__logo
-      height 50px
+      height 45px
       width 160px
       img
         max-width 100%
